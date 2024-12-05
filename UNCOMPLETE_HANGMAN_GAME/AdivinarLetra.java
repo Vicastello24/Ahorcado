@@ -7,14 +7,14 @@ public class AdivinarLetra {
         char letra;
         while (true) {
             System.out.print("Introduce una letra: ");
-            letra = XXX.next().toLowerCase().charAt(0);
+            letra = scanner.next().toLowerCase().charAt(0);
 
-            if (letrasUsadas.indexOf(XXX) >= 0) {
+            if (letrasUsadas.indexOf(letra) >= 0) {
                 System.out.println("Ya has usado esa letra. Intenta otra.");
             } else {
-                XXX;
+                break;
             }
         }
-        return XXX;
+        return letra;
     }
 }
